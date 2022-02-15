@@ -73,17 +73,50 @@ p {
     text-decoration: underline;
 }
 
-.outline{
-    border-left: 1px solid grey;
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
-    padding: 0px;
-    margin: 0px;
+.hotel-name {
+    width: 52%;
+}
+
+.hotel-name h2 {
+    height:90%;
+    border-left:1px solid black;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    text-align: center;
+    margin-top:5%;
+    padding-top:38%;
+}
+
+.hotel-pic{
+    width: 48%;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .hotel-name h2{
+        padding-top:28%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
-    .outline {
-        border-right: 1px solid grey;
+    .hotel-name{
+        width: 100%;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .hotel-name h2{
+        width: 100%;
+        padding-top: 0px;
+        margin-top: 0px;
+        border-right: 2px solid grey;
+    }
+
+    .hotel-pic{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
 }
 
@@ -96,7 +129,7 @@ p {
     border-top:3px solid #000;
 }
 .table td{
-    border-bottom:1px solid #000;
+    border-bottom:1px solid grey;
     border-top:3px solid #000;
 }
 
@@ -148,6 +181,11 @@ p {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.hotel-pic {
+    margin: 0px;
+    padding: 0px;
 }
 
 /**
