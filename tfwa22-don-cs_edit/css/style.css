@@ -48,6 +48,43 @@ p {
     text-decoration: underline;
 }
 
+.outline{
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .outline {
+        border-right: 1px solid grey;
+    }
+}
+
+.table{
+    line-height:1rem;
+    text-align:center;
+}
+.table th{
+    border-bottom:1px solid #000;
+    border-top:3px solid #000;
+}
+.table td{
+    border-bottom:1px solid #000;
+    border-top:3px solid #000;
+}
+
+.table caption{
+    margin-left:55px;
+}
+
+@media only screen and (max-width: 768px) {
+    .table caption{
+        text-align:center;
+        margin-left:0px;
+    }
+}
 /**
  * Start Vanilla CSS 1.0.2 
  */ 
