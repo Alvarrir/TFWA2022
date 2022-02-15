@@ -13,14 +13,25 @@
 <body>
     <img class="w-100" src="./images/WebsiteTop.jpg" />
     <div class="container">
-        <nav class="w-100 pt-3 pb-5 d-flex justify-content-center">
-            <div class="btn-group w-100">
-                <a class="w-100 mr-2 btn btn-nav" href="index.html"><b>Home</b></a>
-                <a class="w-100 mx-2 btn btn-nav" href="accommodation.html"><b>Accommodation</b></a>
+        <nav class="container-grid">
+            <div class="cell-buttons">
+                <a class="w-100 btn btn-nav" href="index.html"><b>Home</b></a>
             </div>
-            <div class="btn-group w-100">
-                <a class="w-100 mx-2 btn btn-nav" href="location.html"><b>Location Map</b></a>
-                <a class="w-100 ml-2 btn btn-nav" href="transportation.html"><b>Transportation</b></a>
+            <div class="cell-buttons">
+                <div class="dropdown btn w-100 btn-nav" onclick="window.location='accommodation.html'">
+                    <div class="" ><b>Accommodation</b></div>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cell-buttons">
+                <a class="w-100 btn btn-nav" href="location.html"><b>Location Map</b></a>
+            </div>
+            <div class="cell-buttons">
+                <a class="w-100 btn btn-nav" href="transportation.html"><b>Transportation</b></a>
             </div>
         </nav>
         <div class="mr-3 ml-3 mb-5">
