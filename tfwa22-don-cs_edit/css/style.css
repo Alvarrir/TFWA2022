@@ -103,6 +103,7 @@ p {
         width: 100%;
         margin-top: 0px;
         padding-top: 0px;
+        
     }
 
     .hotel-name h2{
@@ -110,6 +111,7 @@ p {
         padding-top: 0px;
         margin-top: 0px;
         border-right: 2px solid grey;
+        padding: 24px;
     }
 
     .hotel-pic{
@@ -131,10 +133,6 @@ p {
 .table td{
     border-bottom:1px solid grey;
     border-top:3px solid #000;
-}
-
-.table caption{
-    margin-left:55px;
 }
 
 @media only screen and (max-width: 768px) {
