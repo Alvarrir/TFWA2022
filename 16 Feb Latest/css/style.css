@@ -300,6 +300,10 @@ p {
     background-color: #ddd;
 }
 
+.dropdown-link {
+    font-size: small;
+}
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
