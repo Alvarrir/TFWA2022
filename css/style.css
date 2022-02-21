@@ -410,6 +410,10 @@ table td{
     display: block;
 }
 
+.dropdown:active .dropdown-content {
+    display: block;
+}
+
 .book-now {
     font-family: "Montserrat Hairline";
     font-size: 17px;
